@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Task4",
+            "request": "launch",
+            "mainClass": "Task4",
+            "projectName": "Project 1_e16cd912"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task3",
+            "request": "launch",
+            "mainClass": "Task3",
+            "projectName": "Project 1_e16cd912"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleUDPServer",
+            "request": "launch",
+            "mainClass": "SimpleUDPServer",
+            "projectName": "Project 1_e16cd912"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2",
+            "request": "launch",
+            "mainClass": "Task2",
+            "projectName": "Project 1_e16cd912"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1",
+            "request": "launch",
+            "mainClass": "Task1",
+            "projectName": "Project 1_e16cd912"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Project 1_e16cd912"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleTCPClient",
+            "request": "launch",
+            "mainClass": "SimpleTCPClient",
+            "projectName": "Project 1_e16cd912"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleTCPServer",
+            "request": "launch",
+            "mainClass": "SimpleTCPServer",
+            "projectName": "Project 1_e16cd912"
+        }
+    ]
+}
