@@ -12,7 +12,7 @@ public class Task3
         writer.write("Test Number,Time need to send(nano second),number of package,packet byte\n");
         String result;
 
-        SimpleTCPClient client = new SimpleTCPClient();
+        SimpleTCPClient client = new SimpleTCPClient("129.3.20.89", 1111);
         // String package1 = "love me!";
         // String package2 = "that is why we feel comfortable to lift this, in effect tomorrow";
         String package3 = "I think I've said over the last few press conferences that I really believe that we ought to be looking seriously at how to ratchet that back,” Pritzker said of his mask mandates at a news conference Tuesday. “I think we're going to be making announcements";
@@ -21,7 +21,7 @@ public class Task3
         {   
             client.startThreadOnConnect = false;
             client.connect();
-            for(int count = 0; count < 1000; count++)
+            for(int count = 0; count < 100; count++)
             {
                 System.out.println("package 1: 1024 X 1024 Byte messages");
                 result = sendPackage(client, package4, 1024);
@@ -45,6 +45,8 @@ public class Task3
         {
             ex.printStackTrace();
         }
+
+        writer.close();
     }
 
     public static String sendPackage(SimpleTCPClient client, String p, int time) throws Exception

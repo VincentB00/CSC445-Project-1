@@ -9,6 +9,34 @@
             "name": "Launch Task4",
             "request": "launch",
             "mainClass": "Task4",
+            "projectName": "CSC445-Project 1_7f337677"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2",
+            "request": "launch",
+            "mainClass": "Task2",
+            "projectName": "CSC445-Project 1_7f337677"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task3",
+            "request": "launch",
+            "mainClass": "Task3",
+            "projectName": "CSC445-Project 1_7f337677"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task1",
+            "request": "launch",
+            "mainClass": "Task1",
+            "projectName": "CSC445-Project 1_7f337677"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task4",
+            "request": "launch",
+            "mainClass": "Task4",
             "projectName": "Project 1_e16cd912"
         },
         {

@@ -8,7 +8,7 @@ public class Task4
 {
     public static void main(String[] args) throws IOException 
     {
-        SimpleUDPClient client = new SimpleUDPClient("localhost", 1111);
+        SimpleUDPClient client = new SimpleUDPClient("129.3.20.89", 1111);
         // String package1 = "love me!";
         // String package2 = "that is why we feel comfortable to lift this, in effect tomorrow";
         String package3 = "I think I've said over the last few press conferences that I really believe that we ought to be looking seriously at how to ratchet that back,” Pritzker said of his mask mandates at a news conference Tuesday. “I think we're going to be making announcements";
@@ -20,14 +20,14 @@ public class Task4
                 client.sendData("TN: " + count + "#");
                 client.sendData("BUF: 10#");
 
-                System.out.println("package 1: 1024 X 1024 Byte messages");
-                sendPackage(client, package4, 1024);
+                // System.out.println("package 1: 1024 X 1024 Byte messages");
+                // sendPackage(client, package4, 1024);
                 // System.out.println("----------------------------------------");
                 // System.out.println("package 2: 2048 X 512 Byte messages");
                 // sendPackage(client, package3 + package3, 2048);
                 // System.out.println("----------------------------------------");
-                // System.out.println("package 3: 4096 X 256 Byte messages");
-                // sendPackage(client, package3, 4096);
+                System.out.println("package 3: 4096 X 256 Byte messages");
+                sendPackage(client, package3, 4096);
             }
 
             client.close();

@@ -17,10 +17,10 @@ public class Task2
         String package2 = "that is why we feel comfortable to lift this, in effect tomorrow";
         String package3 = "I think I've said over the last few press conferences that I really believe that we ought to be looking seriously at how to ratchet that back,” Pritzker said of his mask mandates at a news conference Tuesday. “I think we're going to be making announcements";
         String package4 = "Long jokes with a twist are best type of jokes.\n1. My friend once called a few house painters to his house for some work. He wanted them to paint his porch. After a few hours, the house painters came back for the payment as their work was complete. Before leaving they told my friend that they had enjoyed painting his car, but it is not really a Porsche.\n2. There is a skeleton in our neighborhood who always knows that something bad might happen way before it actually happens. He has actually become quite famous and when a TV crew interviewed about the reason behind this ability, the skeleton finally disclosed his secret: he could feel the bad vibes in his bones.\n3. I had visited a cafe one day with my friends. The waiter recommended that we try their special coffee. We agreed and soon the coffee arrived. As we drink the coffee, we realized that it tastes like dirt and mud. Disgusted by the fact, all of us complained immediately. The alarmed waiter rushes over and says, \"Well Sir, it was freshly ground coffee!\"";
-        SimpleUDPClient simpleUDPClient = new SimpleUDPClient("localhost", 1111);
+        SimpleUDPClient simpleUDPClient = new SimpleUDPClient("129.3.20.89", 1111);
         try
         {
-            for(int count = 0; count < 1000; count++)
+            for(int count = 1; count <= 1000; count++)
             {
                 System.out.println("package 1: ");
                 result = sendPackage(simpleUDPClient, package1);
